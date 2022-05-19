@@ -2,15 +2,11 @@ package com.hoxtonr.robot.bellwhether;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.hoxtonr.apis.binanceapi.DefaultAccount;
-import com.hoxtonr.function.spot.market.BinanceSpotMarket;
-import com.hoxtonr.function.spot.model.CandleStick;
-import com.hoxtonr.function.tools.FileHandler;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
+import com.hoxtonr.crypto.apis.binanceapi.DefaultAccount;
+import com.hoxtonr.crypto.binance.spot.BinanceSpotMarket;
+import com.hoxtonr.crypto.binance.models.CandleStick;
+import com.hoxtonr.tools.FileHandler;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
